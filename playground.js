@@ -61,3 +61,6 @@ var myClass = function(name,email,contact){
 let xx = new myClass("ruhul amin","r@gmail.com","110022151");
 console.log(xx.name);
 
+var isTrue = ['12','22'];
+if(isTrue)console.log("True");
+else console.log("not true");
