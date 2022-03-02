@@ -64,3 +64,9 @@ console.log(xx.name);
 var isTrue = ['12','22'];
 if(isTrue)console.log("True");
 else console.log("not true");
+
+
+var age = 18;
+var ageStatus = (age>=18)?"Adult":"Not Adult";
+console.log(ageStatus);
+
