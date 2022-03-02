@@ -70,3 +70,6 @@ var age = 18;
 var ageStatus = (age>=18)?"Adult":"Not Adult";
 console.log(ageStatus);
 
+var num = [1,2,3,4,5];
+var ans = num.find((elem)=> elem > 3)
+console.log(ans);
