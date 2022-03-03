@@ -80,3 +80,12 @@ var ans = myNumber.findIndex((cval,index,arr)=>{
 });
 
 console.log("index is " + ans);
+
+var roll = [11,222,3,4,55,2232,11];
+var res = roll.filter((elem)=> elem>10);
+console.log(res);
+
+
+
+
+
