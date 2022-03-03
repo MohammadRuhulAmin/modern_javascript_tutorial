@@ -93,6 +93,14 @@ var inf = myNum.splice(1,1,111,222);
 console.log(myNum);
 console.log(inf);
 
+var ar1 = [1,2,3,4];
+var ar2 = [5,6,7];
+var res = ar1.concat(ar2);
+console.log(res);
+ar2.push(12);
+console.log(ar2);
+
+
 
 
 
