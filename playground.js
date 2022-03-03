@@ -99,9 +99,30 @@ var res = ar1.concat(ar2);
 console.log(res);
 ar2.push(12);
 console.log(ar2);
+var ar3 = [1,3,4,5,6,7];
+console.log("MAP :=> ");
+var myar = ar3.map((e)=>e*2);
+console.log(myar);
+var myInformation = {
+    "name": "Md Ruhul Amin",
+    "email"  : "ruhul@gmail.com",
+    "contact" : "01322352864"
+};
+for(property in myInformation){
+    console.log(`Info :  ${property}`);
+}
 
-
-
+var myObj = {
+    name :"Ruhul Amin",
+    email : "ruhul@gmail.com",
+    contact : "01322352864"
+};
+var keys = Object.keys(myObj);
+var vals = Object.values(myObj);
+var entries = Object.entries(myObj);
+console.log(keys);
+console.log(vals);
+console.log(entries);
 
 
 
