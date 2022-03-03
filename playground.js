@@ -60,16 +60,23 @@ var myClass = function(name,email,contact){
 
 let xx = new myClass("ruhul amin","r@gmail.com","110022151");
 console.log(xx.name);
-
 var isTrue = ['12','22'];
 if(isTrue)console.log("True");
 else console.log("not true");
-
-
 var age = 18;
 var ageStatus = (age>=18)?"Adult":"Not Adult";
 console.log(ageStatus);
-
 var num = [1,2,3,4,5];
 var ans = num.find((elem)=> elem > 3)
 console.log(ans);
+var myInf = [1,2,3,4,5,6];
+var res = myInf.find((e)=> e >4 );
+console.log(`${res} found`);
+
+var myNumber = [1,2,3,4,5,6,7,8,9];
+
+var ans = myNumber.findIndex((cval,index,arr)=>{
+    return cval>6;
+});
+
+console.log("index is " + ans);
