@@ -85,6 +85,14 @@ var roll = [11,222,3,4,55,2232,11];
 var res = roll.filter((elem)=> elem>10);
 console.log(res);
 
+var sls = roll.slice(1,4);
+console.log(sls);
+
+var myNum = [1,2,3,4,5];
+var inf = myNum.splice(1,1,111,222);
+console.log(myNum);
+console.log(inf);
+
 
 
 
