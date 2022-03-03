@@ -124,5 +124,9 @@ console.log(keys);
 console.log(vals);
 console.log(entries);
 
+function defaultFunction(x ="Md Ruhul Amin"){
+    return x;
+}
+console.log(defaultFunction());
 
-
+console.log(defaultFunction("Sakib Hasan"));
