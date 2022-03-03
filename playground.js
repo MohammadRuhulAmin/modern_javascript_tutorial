@@ -130,3 +130,22 @@ function defaultFunction(x ="Md Ruhul Amin"){
 console.log(defaultFunction());
 
 console.log(defaultFunction("Sakib Hasan"));
+
+var xl = [1,2,3,4,5];
+var xll = [...xl,11,1221];
+console.log(xll);
+var  p = [...xl]; // no change after push of xl
+xl.push(12111);
+var o1 = {
+    name:'adns',
+    email:'adns@gmail.com'
+};
+var o2 = {
+    code : '1212',
+    contact:'12221--12121'
+};
+var o3 = {
+    ...o1,
+    ...o2
+};
+console.log(o3);
