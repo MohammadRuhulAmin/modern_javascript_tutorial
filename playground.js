@@ -162,3 +162,17 @@ function myParams(...params){
 }
 
 myParams(1,2,3,4,5);
+console.log("Object Distructuring");
+var detail = {
+    name:"Ruhul Amin",
+    email : "ruhulamin.cs.dev@gmail.com",
+    contact: "01322352864",
+    education : {
+        degree : "Master of Sience in CSE",
+    }
+};
+const {name:name_info} = detail ;
+console.log(name_info);
+console.log(detail["email"]);
+const {education:{degree: deg = {}}} = detail;
+console.log(deg);
