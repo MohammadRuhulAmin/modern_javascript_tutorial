@@ -149,3 +149,16 @@ var o3 = {
     ...o2
 };
 console.log(o3);
+
+function infoShow(){
+    console.log(arguments);
+}
+
+infoShow(1,2,3,4,5);
+
+console.log("Rest Operator :=>");
+function myParams(...params){
+    console.log(params);
+}
+
+myParams(1,2,3,4,5);
