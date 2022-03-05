@@ -176,3 +176,8 @@ console.log(name_info);
 console.log(detail["email"]);
 const {education:{degree: deg = {}}} = detail;
 console.log(deg);
+
+var a = 12,b = 36;
+console.log(`I am ${a} and my friend is ${b}`);
+console.log(`This 
+        is good thing!`);
